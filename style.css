@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bas{
+    padding: 10px 80px;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    background-color: rgb(238, 255, 249);
+    
+}
+
+
+.uc{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.uc li a{
+    color: black;
+    text-decoration: none;
+}
+
+.bt{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20%;
+    background-color: white;
+    gap: 7px;
+    margin: 0px 0px 30px 800px;
+    
+    
+}
+
+#sf{
+    padding-top: 1px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: medium;
+}
+.orta{
+    width: 80%;
+    margin: 30px 15%;
+    display: flex;
+    gap: 10px;
+}
+.bz{
+    width: 40%;
+    background-color: grey;
+    height: 80vh;
+    padding: 40vh 15%;
+    margin: 30px 0 0 0;
+    font-size: x-large;
+    
+}
+
+.yz{
+    width: 30%;
+    flex-direction: column;
+    margin: 70px 15% 0 5%;
+    
+}
+.hm{
+    width: 80%;
+    margin: 30px 10%;
+    display: flex;
+}
+
+.bir{
+    width: 18%;
+    background-color: grey;
+    height: 10vh;
+    margin:0 2% ;
+
+}
+.iki{
+    width: 18%;
+    background-color: grey;
+    height: 10vh; 
+    margin:0 2% ;
+}
+.ucc{
+    width: 18%;
+    background-color: grey;
+    height: 10vh;
+    
+}
+
+.dr{
+    width: 18%;
+    background-color: grey;
+    height: 10vh;
+    margin: 0px 0px 40%;
+}
+@media .orta (max-device-width: 480px) {
+    div#wrapper {
+        width: 400px;
+    }
+
+    div#header {
+        background-image: url(media-queries-phone.jpg);
+        height: 93px;
+        position: relative;
+    }
+
+    div#header h1 {
+        font-size: 140%;
+    }
+
+    #content {
+        float: none;
+        width: 100%;
+    }
+
+    #navigation {
+        float:none;
+        width: auto;
+    }
+}
